@@ -172,3 +172,8 @@ export function renderDetails(order) {
   card.append(body);
   container.append(card);
 }
+export function renderError(message) {
+  const container = document.getElementById("error");
+  container.textContent = message;
+  container.classList.remove("d-none");
+}

@@ -1,0 +1,85 @@
+body {
+  color: #243247;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+  padding: 28px;
+  color: white;
+  background: #244c66;
+  border-radius: 14px;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+header .text-secondary {
+  color: #e0edf5 !important;
+  margin-bottom: 0;
+}
+
+.card {
+  border: 1px solid #dce4ec;
+  border-radius: 12px;
+}
+
+#indicators .card {
+  border-top: 4px solid #287d8e;
+  background: #f0f7fa;
+}
+
+#indicators .h4 {
+  color: #244c66;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+#orders .card {
+  border-left: 4px solid #287d8e;
+}
+
+#orders .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#orders .btn {
+  margin-top: auto;
+}
+
+.btn-primary {
+  background-color: #246b7b;
+  border-color: #246b7b;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #194d59;
+  border-color: #194d59;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #287d8e;
+  box-shadow: 0 0 0 0.2rem rgb(40 125 142 / 18%);
+}
+
+#details .card {
+  border-color: #287d8e !important;
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  #indicators .h4 {
+    font-size: 1.2rem;
+  }
+}
