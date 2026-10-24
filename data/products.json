@@ -1,0 +1,58 @@
+[
+  {
+    "id": 10,
+    "name": "Ordinateur portable",
+    "category": "Informatique",
+    "price": 6500,
+    "stock": 8
+  },
+  {
+    "id": 11,
+    "name": "Souris",
+    "category": "Informatique",
+    "price": 120,
+    "stock": 25
+  },
+  {
+    "id": 12,
+    "name": "Clavier",
+    "category": "Informatique",
+    "price": 250,
+    "stock": 15
+  },
+  {
+    "id": 13,
+    "name": "Cahier",
+    "category": "Papeterie",
+    "price": 25,
+    "stock": 60
+  },
+  {
+    "id": 14,
+    "name": "Stylo",
+    "category": "Papeterie",
+    "price": 5,
+    "stock": 100
+  },
+  {
+    "id": 15,
+    "name": "Agenda",
+    "category": "Papeterie",
+    "price": 80,
+    "stock": 20
+  },
+  {
+    "id": 16,
+    "name": "Lampe pour bureau",
+    "category": "Maison",
+    "price": 180,
+    "stock": 12
+  },
+   {
+    "id": 17,
+    "name": "Chaiise",
+    "category": "Maison",
+    "price": 450,
+    "stock": 10
+  }
+]
